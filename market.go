@@ -1,4 +1,5 @@
 package bittrex
+import "time"
 
 type Market struct {
 	MarketCurrency     string  `json:"MarketCurrency"`
@@ -11,4 +12,5 @@ type Market struct {
 	Notice             string  `json:"Notice"`
 	IsSponsored        bool    `json:"IsSponsored"`
 	LogoUrl            string  `json:"LogoUrl"`
+	Created			   time.Time `json:"Created"`            
 }
