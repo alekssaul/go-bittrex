@@ -1,5 +1,4 @@
 package bittrex
-import "time"
 
 type Market struct {
 	MarketCurrency     string  `json:"MarketCurrency"`
